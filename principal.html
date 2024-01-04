@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>Envio de arquivos</title>
+</head>
+<body>
+  <header>
+    <h1>Sistema de envio de currículo.</h1>
+    <h2>Bem vindo!</h2>
+  </header>
+  <main>
+    <form action = "enviodearquivo" method = "post" enctype = "multipart/form-data">
+     <h3>Adicione o currículo para envio.</h3> 
+    <input type = "file" name = "filetoupload" accept = "application/pdf" >
+    <p1><span>*</span>Somente currículo em formato PDF!</p1>
+    <input style = "border-radius: 25px;" type = "submit" value = "Enviar">  
+    </form>
+  </main>
+  <footer>
+    <p>&copy; Recursos Humanos Copyright</p>
+  </footer>
+ </body>
+</html>

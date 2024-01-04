@@ -1,0 +1,53 @@
+body{
+    margin: 1em auto;
+    width: 100vw;
+    margin-top: 40px;
+    background-color: transparent;
+    font-family: calibri;
+    color: black;
+  }
+  main {
+    margin-top: 5%;
+  }
+  h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  form {
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: lightblue;
+  }
+  input {
+    margin: 10px 0;
+    font-size: 15px;      
+    height: 50px;
+    width: auto;
+  }
+  p {
+    margin-top: 5em;
+    text-align: center;
+    font-size: 15px;
+  }
+  p1 {
+    text-align: center;
+    font-size: 15px;
+  }
+  span {
+    color: red;
+  }
